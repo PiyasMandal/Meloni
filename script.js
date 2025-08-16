@@ -46,10 +46,10 @@ btn.style.display="none"
 function takeCommand(message){
    voice.style.display="none"
     btn.style.display="flex"
-    if(message.includes("hello Myla")||message.includes("hey Myla")){
+    if(message.includes("hello Meloni")||message.includes("hey Meloni")){
         speak("hello sir,what can i help you?")
     }
-    else if(message.includes("who are you")){
+    else if(message.includes("tell me about yourself")){
         speak("i am virtual assistant ,created by Piyas Sir")
     }else if(message.includes("open youtube")){
         speak("opening youtube...")
